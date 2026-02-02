@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Aura" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="28">shortEdges</item>
+
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">false</item>
+    </style>
+
+    <style name="CustomAlertDialog" parent="Theme.AppCompat.DayNight.Dialog.Alert">
+        <item name="android:background">#1C2541</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="colorAccent">#7B2CBF</item>
+    </style>
+
+    <style name="Theme.Aura" parent="Base.Theme.Aura" />
+
+    <style name="CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="RoundedImage">
+        <item name="cornerSize">30dp</item>
+    </style>
+</resources>
